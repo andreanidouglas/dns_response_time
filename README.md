@@ -13,3 +13,19 @@ chmod +x dns_time.sh
 ```bash
 ./dns_time.sh > dns_test.txt
 ```
+
+## Requirements 
+
+This tool uses `dig` to evaluate the dns response time. For this, you may require additional packages to your standard Linux installation
+
+* Debian/Ubuntu:
+`apt install dnsutils`
+
+* Fedora (rpm):
+`yum install bind-utils` 
+
+* Arch/Manjaro:
+`pacman -S bind-tools`
+
+## Optinal
+If you require, you can change the server list by modifying the `servers.txt` file or changing the `domains.txt` file for new or changing domains.
