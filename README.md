@@ -1,6 +1,6 @@
-# Test the best dns for you
+# Test the best DNS for you
 
-Use this tool to test the best dns server for you, 
+Use this tool to test the best DNS server for you: 
 
 1. just make the script executable:
 
@@ -27,6 +27,6 @@ This tool uses `dig` to evaluate the dns response time. For this, you may requir
 * Arch/Manjaro:
 `pacman -S bind-tools`
 
-## Optinal
+## Optional
 
 If you require, you can change the server list by modifying the `servers.txt` file or changing the `domains.txt` file for new or changing domains.
