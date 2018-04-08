@@ -28,4 +28,5 @@ This tool uses `dig` to evaluate the dns response time. For this, you may requir
 `pacman -S bind-tools`
 
 ## Optinal
+
 If you require, you can change the server list by modifying the `servers.txt` file or changing the `domains.txt` file for new or changing domains.
